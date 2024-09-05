@@ -19,8 +19,8 @@ LSTAT: Percentage of lower status of the population
 MEDV: Median value of owner-occupied homes in $1000s (target variable)
 
 ## Installation
-git clone https://github.com/yourusername/dragon-real-estate-price-predictor.git
-cd dragon-real-estate-price-predictor
+git clone https://github.com/Anjalithakur44/Dragon_Real_Estate_Price_Predictor.git
+cd Dragon_Real_Estate_Price_Predictor
 pip install -r requirements.txt
 
 ## Usage
@@ -32,9 +32,11 @@ housing = pd.read_csv("housing_data.csv")
 ## Data Exploration: View the first few rows of the dataset:
 housing.head()
 
-## Model Training: Train and evaluate various regression models (e.g., Linear Regression, Decision Tree Regressor) to predict house prices. The code for training and evaluating models is included in the notebook.
+## Model Training: 
+Train and evaluate various regression models (e.g., Linear Regression, Decision Tree Regressor) to predict house prices. The code for training and evaluating models is included in the notebook.
 
-## Results: Results are evaluated using RMSE (Root Mean Square Error) metrics. Insights and visualizations can be found in the Jupyter Notebook.
+## Results: 
+Results are evaluated using RMSE (Root Mean Square Error) metrics. Insights and visualizations can be found in the Jupyter Notebook.
 
 ## Project Structure
 housing_data.csv: Dataset used for training and evaluation.
